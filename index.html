@@ -4,7 +4,7 @@
     <head>
 
         <meta charset="utf-8" />
-        <title>Dashboard | OXXO</title>
+        <title>Dashboard | Pulse</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Themesbrand" name="author" />
@@ -41,19 +41,19 @@
                         <div class="navbar-brand-box">
                             <a href="index.html" class="logo logo-dark">
                                 <span class="logo-sm">
-                                    <img src="assets/images/oxxo-logo.svg" alt="" height="15">
+                                    <img src="assets/images/favicon.png" alt="" height="30">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="assets/images/oxxo-logo.svg" alt="" height="40">
+                                    <img src="assets/images/pulso-logo.png" alt="" height="40">
                                 </span>
                             </a>
 
                             <a href="index.html" class="logo logo-light">
                                 <span class="logo-sm">
-                                    <img src="assets/images/oxxo-logo.svg" alt="" height="15">
+                                    <img src="assets/images/pulso-logo.png" alt="" height="15">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="assets/images/oxxo-logo.svg" alt="" height="40">
+                                    <img src="assets/images/pulso-logo.png" alt="" height="40">
                                 </span>
                             </a>
                         </div>
@@ -334,10 +334,35 @@
                             </li>
 
                             <li>
-                                <a href="#">
-                                    <i data-feather="users"></i>
-                                    <span data-key="t-dashboard">Admin Usuarios</span>
+                                <a href="javascript: void(0);" class="has-arrow">
+                                    <i data-feather="grid"></i>
+                                    <span data-key="t-apps">Mantenedor</span>
                                 </a>
+                                <ul class="sub-menu" aria-expanded="false">
+                                    <li>
+                                        <a href="#">
+                                            <span data-key="t-calendar">Usuarios</span>
+                                        </a>
+                                    </li>
+        
+                                    <li>
+                                        <a href="#">
+                                            <span data-key="t-chat">Pulsos</span>
+                                        </a>
+                                    </li>
+        
+                                    <li>
+                                        <a href="#">
+                                            <span data-key="t-chat">Cámaras</span>
+                                        </a>
+                                    </li>
+        
+                                    <li>
+                                        <a href="#">
+                                            <span data-key="t-chat">Alertas</span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
 
                         </ul>
@@ -408,7 +433,7 @@
                                         <div class="card card-h-100">
                                             <!-- card body -->
                                             <div class="card-body">
-                                                <div class="card__item">
+                                                <div class="card__item" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                                     <span class="text-muted mb-3 lh-1 d-block text-truncate">Ayer</span>
                                                     <h1 class="mb-3">
                                                         <span class="counter-value" data-target="339">0</span>
@@ -429,7 +454,7 @@
                                         <div class="card card-h-100">
                                             <!-- card body -->
                                             <div class="card-body">
-                                                <div class="card__item">
+                                                <div class="card__item" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                                     <span class="text-muted mb-3 lh-1 d-block text-truncate">Promedio Diario Año Actual</span>
                                                     <h1 class="mb-3">
                                                         <span class="counter-value" data-target="64">0</span>
@@ -444,7 +469,7 @@
                                         <div class="card card-h-100">
                                             <!-- card body -->
                                             <div class="card-body">
-                                                <div class="card__item">
+                                                <div class="card__item" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                                     <span class="text-muted mb-3 lh-1 d-block text-truncate">Promedio Diario Año Anterior</span>
                                                     <h1 class="mb-3">
                                                         <span class="counter-value" data-target="122">0</span>
@@ -460,7 +485,7 @@
                                         <div class="card card-h-100">
                                             <!-- card body -->
                                             <div class="card-body">
-                                                <div class="card__item">
+                                                <div class="card__item" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                                     <span class="text-muted mb-3 lh-1 d-block text-truncate">% Variación clientes</span>
                                                     <h1 class="mb-3">
                                                         <span class="counter-value" data-target="12.57">0</span>%
@@ -484,9 +509,9 @@
                                             <div class="card-header">
                                                 <h4 class="card-title mb-0">Clientes por hora</h4>
                                             </div>
-                                            <div class="card-body">
+                                            <div class="card-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                 
-                                                <canvas id="bar_01" class="chartjs-chart" data-colors='["#de2324", "#de2324"]'></canvas>
+                                                <canvas id="bar_01" class="chartjs-chart" data-colors='["#C6FF69", "#C6FF69"]'></canvas>
                 
                                             </div>
                                         </div>
@@ -497,9 +522,9 @@
                                             <div class="card-header">
                                                 <h4 class="card-title mb-0">Clientes por dia</h4>
                                             </div>
-                                            <div class="card-body">
+                                            <div class="card-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                 
-                                                <canvas id="bar_02" class="chartjs-chart" data-colors='["#de2324", "#de2324"]'></canvas>
+                                                <canvas id="bar_02" class="chartjs-chart" data-colors='["#C6FF69", "#C6FF69"]'></canvas>
                 
                                             </div>
                                         </div>
@@ -510,9 +535,9 @@
                                             <div class="card-header">
                                                 <h4 class="card-title mb-0">Clientes Mensuales</h4>
                                             </div>
-                                            <div class="card-body">
+                                            <div class="card-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                 
-                                                <canvas id="bar_03" class="chartjs-chart" data-colors='["#de2324", "#de2324"]'></canvas>
+                                                <canvas id="bar_03" class="chartjs-chart" data-colors='["#C6FF69", "#C6FF69"]'></canvas>
                 
                                             </div>
                                         </div>
@@ -527,7 +552,7 @@
                                     <div class="card-header">
                                         <h4 class="card-title mb-0">Clientes por dia</h4>
                                     </div>
-                                    <div class="card-body">
+                                    <div class="card-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                         <div id="line-chart" data-colors='["#2ab57d", "red", "orange", "blue"]' class="e-charts"></div>
                                     </div>
                                 </div>
@@ -540,7 +565,7 @@
                                         <div class="card card-h-100">
                                             <!-- card body -->
                                             <div class="card-body">
-                                                <div class="card__item">
+                                                <div class="card__item" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                                     <span class="text-muted mb-3 lh-1 d-block text-truncate">Acum Entrada de Clientes</span>
                                                     <h1 class="mb-3">
                                                         <span class="counter-value" data-target="2569">0</span>
@@ -555,7 +580,7 @@
                                         <div class="card card-h-100">
                                             <!-- card body -->
                                             <div class="card-body">
-                                                <div class="card__item">
+                                                <div class="card__item" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                                     <span class="text-muted mb-3 lh-1 d-block text-truncate">AVG Semana anteriro</span>
                                                     <h1 class="mb-3">
                                                         <span class="counter-value" data-target="5">0</span>%
@@ -573,9 +598,9 @@
                                     <div class="card-header">
                                         <h4 class="card-title mb-0">Clientes por hora</h4>
                                     </div>
-                                    <div class="card-body">
+                                    <div class="card-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
         
-                                        <canvas id="bar_06" class="chartjs-chart" data-colors='["#de2324", "#de2324"]'></canvas>
+                                        <canvas id="bar_06" class="chartjs-chart" data-colors='["#C6FF69", "#C6FF69"]'></canvas>
         
                                     </div>
                                 </div>
@@ -588,7 +613,7 @@
                                         <div class="card card-h-100">
                                             <!-- card body -->
                                             <div class="card-body">
-                                                <div class="card__item">
+                                                <div class="card__item" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                                     <span class="text-muted mb-3 lh-1 d-block text-truncate">Horario Pico Estimada</span>
                                                     <h1 class="mb-3">
                                                         <span>14:00 - 21:00</span>
@@ -609,9 +634,9 @@
                                     <div class="card-header">
                                         <h4 class="card-title mb-0">Tiempo promedio en fila en minutos(>= 3 personas)</h4>
                                     </div>
-                                    <div class="card-body">
+                                    <div class="card-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
         
-                                        <canvas id="bar_05" class="chartjs-chart" data-colors='["#de2324", "#de2324"]'></canvas>
+                                        <canvas id="bar_05" class="chartjs-chart" data-colors='["#C6FF69", "#C6FF69"]'></canvas>
         
                                     </div>
                                 </div>
@@ -623,7 +648,7 @@
                                         <div class="card card-h-100">
                                             <!-- card body -->
                                             <div class="card-body">
-                                                <div class="card__item">
+                                                <div class="card__item" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                                     <span class="text-muted mb-3 lh-1 d-block text-truncate">Promedio Tiempo en Fila</span>
                                                     <h1 class="mb-3">
                                                         <span>4 min</span>
@@ -637,7 +662,7 @@
                                         <div class="card card-h-100">
                                             <!-- card body -->
                                             <div class="card-body">
-                                                <div class="card__item">
+                                                <div class="card__item" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                                     <span class="text-muted mb-3 lh-1 d-block text-truncate">Promedio Clientes en Fila</span>
                                                     <h1 class="mb-3">
                                                         <span>5</span>
@@ -651,7 +676,7 @@
                                         <div class="card card-h-100">
                                             <!-- card body -->
                                             <div class="card-body">
-                                                <div class="card__item">
+                                                <div class="card__item" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                                     <span class="text-muted mb-3 lh-1 d-block text-truncate">AVG Semana Anterior</span>
                                                     <h1 class="mb-3">
                                                         <span>+2%</span>
@@ -665,7 +690,7 @@
                                         <div class="card card-h-100">
                                             <!-- card body -->
                                             <div class="card-body">
-                                                <div class="card__item">
+                                                <div class="card__item" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                                     <span class="text-muted mb-3 lh-1 d-block text-truncate">AVG Semana Anterior</span>
                                                     <h1 class="mb-3">
                                                         <span>+2%</span>
@@ -683,9 +708,9 @@
                                     <div class="card-header">
                                         <h4 class="card-title mb-0">Tiempo promedio retiro de valores</h4>
                                     </div>
-                                    <div class="card-body">
+                                    <div class="card-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
         
-                                        <canvas id="bar_04" class="chartjs-chart" data-colors='["#de2324", "#de2324"]'></canvas>
+                                        <canvas id="bar_04" class="chartjs-chart" data-colors='["#C6FF69", "#C6FF69"]'></canvas>
         
                                     </div>
                                 </div>
@@ -696,8 +721,8 @@
                                         <!-- card -->
                                         <div class="card card-h-100">
                                             <!-- card body -->
-                                            <div class="card-body">
-                                                <div class="card__item">
+                                            <div class="card-body" >
+                                                <div class="card__item" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                                     <span class="text-muted mb-3 lh-1 d-block text-truncate">Tiempo Promedio Operación</span>
                                                     <h1 class="mb-3">
                                                         <span>13 min</span>
@@ -711,7 +736,7 @@
                                         <div class="card card-h-100">
                                             <!-- card body -->
                                             <div class="card-body">
-                                                <div class="card__item">
+                                                <div class="card__item" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                                     <span class="text-muted mb-3 lh-1 d-block text-truncate">AVG Semana Anterior</span>
                                                     <h1 class="mb-3">
                                                         <span>-4%</span>
@@ -731,7 +756,7 @@
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-xl-6">
-                                                <div class="card-body">
+                                                <div class="card-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                                     <span class="text-muted mb-3 lh-1 d-block text-truncate">Índice de sonrisas en tiendas</span>
                                                     <h1 class="mb-3">
                                                         <img src="assets/images/sonriente.png" alt="sonriente">
@@ -741,7 +766,7 @@
                                             </div><!-- end col -->
                         
                                             <div class="col-xl-6">
-                                                <div class="card-body">
+                                                <div class="card-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                                     <span class="text-muted mb-3 lh-1 d-block text-truncate">Índice de sonrisas en tiendas</span>
                                                     <h1 class="mb-3">
                                                         <img src="assets/images/triste.png" alt="triste">
@@ -761,7 +786,7 @@
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-xl-6">
-                                                <div class="card-body">
+                                                <div class="card-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                                     <span class="text-muted mb-3 lh-1 d-block text-truncate">Índice de sonrisas en tiendas</span>
                                                     <h1 class="mb-3">
                                                         <img src="assets/images/sonriente.png" alt="sonriente">
@@ -771,7 +796,7 @@
                                             </div><!-- end col -->
                         
                                             <div class="col-xl-6">
-                                                <div class="card-body">
+                                                <div class="card-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit diam et varius aliquam. Vestibulum posuere ex id commodo condimentum. Duis consectetur nisl et aliquam vestibulum.">
                                                     <span class="text-muted mb-3 lh-1 d-block text-truncate">Índice de sonrisas en tiendas</span>
                                                     <h1 class="mb-3">
                                                         <img src="assets/images/triste.png" alt="triste">

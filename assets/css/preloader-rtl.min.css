@@ -7,8 +7,8 @@
       user-select: none;
 }
 .pace .pace-progress {
-  background: -webkit-gradient(linear, right top, left top, color-stop(20%, #de2324), color-stop(40%, #2ab57d), color-stop(60%, #4ba6ef), color-stop(80%, #fec630), to(#de2324));
-  background: linear-gradient(to left, #de2324 20%, #2ab57d 40%, #4ba6ef 60%, #fec630 80%, #de2324 100%);
+  background: -webkit-gradient(linear, right top, left top, color-stop(20%, #C6FF69), color-stop(40%, #2ab57d), color-stop(60%, #4ba6ef), color-stop(80%, #fec630), to(#C6FF69));
+  background: linear-gradient(to left, #C6FF69 20%, #2ab57d 40%, #4ba6ef 60%, #fec630 80%, #C6FF69 100%);
   position: fixed;
   z-index: 2000;
   top: 0;
@@ -29,7 +29,7 @@
   left: 0;
   width: 150px;
   height: 150px;
-  background: #de2324;
+  background: #C6FF69;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
