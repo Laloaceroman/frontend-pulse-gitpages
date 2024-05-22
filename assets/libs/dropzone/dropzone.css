@@ -130,7 +130,7 @@
     transform: translateY(0px);
   }
 }
-@-webkit-keyframes pulse {
+@-webkit-keyframes Pulso {
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -153,7 +153,7 @@
     transform: scale(1);
   }
 }
-@-moz-keyframes pulse {
+@-moz-keyframes Pulso {
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -176,7 +176,7 @@
     transform: scale(1);
   }
 }
-@keyframes pulse {
+@keyframes Pulso {
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -390,11 +390,11 @@
   transition: opacity 0.4s ease-in;
 }
 .dropzone .dz-preview:not(.dz-processing) .dz-progress {
-  -webkit-animation: pulse 6s ease infinite;
-  -moz-animation: pulse 6s ease infinite;
-  -ms-animation: pulse 6s ease infinite;
-  -o-animation: pulse 6s ease infinite;
-  animation: pulse 6s ease infinite;
+  -webkit-animation: Pulso 6s ease infinite;
+  -moz-animation: Pulso 6s ease infinite;
+  -ms-animation: Pulso 6s ease infinite;
+  -o-animation: Pulso 6s ease infinite;
+  animation: Pulso 6s ease infinite;
 }
 .dropzone .dz-preview .dz-progress {
   opacity: 1;

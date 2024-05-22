@@ -6762,11 +6762,11 @@ File: Icons Css File
   content: "\f131f";
 }
 
-.mdi-clipboard-pulse::before {
+.mdi-clipboard-Pulso::before {
   content: "\f085d";
 }
 
-.mdi-clipboard-pulse-outline::before {
+.mdi-clipboard-Pulso-outline::before {
   content: "\f085e";
 }
 
@@ -13630,7 +13630,7 @@ File: Icons Css File
   content: "\f1431";
 }
 
-.mdi-heart-pulse::before {
+.mdi-heart-Pulso::before {
   content: "\f05f6";
 }
 
@@ -19606,7 +19606,7 @@ File: Icons Css File
   content: "\f1945";
 }
 
-.mdi-pulse::before {
+.mdi-Pulso::before {
   content: "\f0430";
 }
 
@@ -29271,7 +29271,7 @@ File: Icons Css File
   content: "\eb29";
 }
 
-.bx-pulse:before {
+.bx-Pulso:before {
   content: "\eb2a";
 }
 
@@ -33186,7 +33186,7 @@ File: Icons Css File
   animation: fa-spin 2s infinite linear;
 }
 
-.fa-pulse {
+.fa-Pulso {
   -webkit-animation: fa-spin 1s infinite steps(8);
   animation: fa-spin 1s infinite steps(8);
 }
@@ -39737,7 +39737,7 @@ readers do not read off random characters that represent icons */
   content: "\e038";
 }
 
-.dripicons-pulse:before {
+.dripicons-Pulso:before {
   content: "\e039";
 }
 
